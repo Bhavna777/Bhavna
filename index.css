@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0%;
+}
+
+/* Section 1 */
+
+.OuterDiv {
+    background-color: green;
+}
+.Image {
+    height: 60vh;
+    width: 80%;
+    margin: 10%;
+}
+
+
+/* Section 2  */
+
+.section2{
+    background: radial-gradient(#57f16c,rgb(188, 178, 245),#57f16c);
+}
+
+.HomeSectionStyle{
+    width: 19rem;
+    border-radius: 10px;
+}
+
+.HomeSectionStyle:hover{
+    box-shadow: 5px 10px 20px 1px rgba(0,0,0,1)!important;
+}
+
+.card-body{
+    padding: 4rem 0 !important;
+    background-color: lightyellow;
+}
+
+.card-text{
+    font-size: 0.9rem;
+    padding: 0.4rem 1.9rem;
+}
+
+.container-fluid .row{
+    /* padding-top: 6rem; */
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.overflow{
+    overflow: hidden;
+}
+.card-img-top{
+    transform: scale(1);
+    transition: transform 0.5s ease;
+}
+
+.card-img-top:hover{
+    transform: scale(1.8);
+}
+
+
+/* Section 3 */
+
+.FooterStyle{
+    background: linear-gradient(green,yellow,green);
+    color: black;
+    text-align: center;
+}
+
+h1{
+    padding: 40px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#name{
+    height: 50px;
+    width: 60%;
+    margin-top: 20px;
+    text-align: center;
+    background-color: skyblue;
+    color: black;
+    border-radius: 5px;
+}
+
+#email{
+    height: 50px;
+    width: 60%;
+    margin-top: 10px;
+    text-align: center;
+    background-color: skyblue;
+    color: black;
+    border-radius: 5px;
+}
+
+#msg_subject{
+    height: 50px;
+    width: 60%;
+    margin-top: 10px;
+    text-align: center;
+    background-color: skyblue;
+    color: black;
+    border-radius: 5px;
+}
+
+#message{
+    /* height: 30px; */
+    width: 60%;
+    margin-top: 10px;
+    text-align: center;
+    background-color:violet;
+    color: black;
+    border-radius: 5px;
+}
+
+#submit{
+    height: 40px;
+    width: 60%;
+    margin-top: 10px;
+    background-color: black;
+    margin-bottom: 40px;
+    border-radius: 10px;
+
+}
+
