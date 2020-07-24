@@ -10,7 +10,7 @@
 }
 
 .Inner{
-    background-color: skyblue;
+    background-color: green !important;
     height: 70vh;
     width: 100%;
 }
