@@ -22,7 +22,7 @@
                 <div class = "Form text-center pt-5">
                     <form action="../Validation/validation2.php"  method="POST">
                         <h1 class = "text-success">Login Here</h1><br>
-                        <input type="text" placeholder = "name" class = "text-center"><br>
+                        <input type="text" placeholder = "name" name="name" class = "text-center"><br>
                         <button class = "btn btn-success mt-4">Login</button>
                     </form>
                 </div>

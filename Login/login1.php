@@ -19,10 +19,10 @@
                     echo"<p class='text-center'> Sorry Unauthorized person cann't Login</p>";
                 }
                 ?>
-                <div class = "Form text-center pt-5">
-                    <form action="../Validation/validation1.php"  method="POST">
+                <div>
+                    <form action="../Validation/validation1.php"  method="POST" class = "Form text-center pt-5">
                         <h1 class = "text-success">Login Here</h1><br>
-                        <input type="text" placeholder = "name"><br>
+                        <input type="text" name="name" placeholder = "name" class = "text-center"><br>
                         <button class = "btn btn-success mt-4">Login</button>
                     </form>
                 </div>

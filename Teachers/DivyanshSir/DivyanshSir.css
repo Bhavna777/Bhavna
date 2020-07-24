@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+    background-color: black !important;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+}
+
+.Inner{
+    background-color: skyblue;
+    height: 70vh;
+    width: 100%;
+}
+
+.Inner h1 {
+    text-align: center;
+    padding-top: 35vh;
+    font-size: 70px;
+}
